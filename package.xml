@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package>
+  <name>mantra_gui</name>
+  <version>0.1.0</version>
+  <description>
+
+     mantra_gui
+
+  </description>
+  <maintainer email="lijianfeng@gmail.com">lijianfeng</maintainer>
+  <author>lijianfeng</author>
+  <license>BSD</license>
+  <!-- <url type="bugtracker">https://github.com/stonier/qt_ros/issues</url> -->
+  <!-- <url type="repository">https://github.com/stonier/qt_ros</url> -->
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>qt_build</build_depend>
+  <build_depend>roscpp</build_depend>
+
+  <build_depend>libqt4-dev</build_depend>
+  <run_depend>libqt4-dev</run_depend>
+
+  <build_depend>rs_perception</build_depend>
+  <build_depend>darknet_ros_msgs</build_depend>
+  <build_depend>rviz</build_depend>
+  <run_depend>qt_build</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rs_perception</run_depend>
+  <run_depend>darknet_ros_msgs</run_depend>
+  <run_depend>rviz</run_depend>
+
+  <build_depend>qtbase5-dev</build_depend>
+  <run_depend>libqt5-core</run_depend>
+  <run_depend>libqt5-gui</run_depend>
+  <run_depend>libqt5-widgets</run_depend>
+</package>
